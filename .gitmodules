@@ -1,0 +1,12 @@
+[submodule "bundle/pathogen"]
+	path = bundle/pathogen
+    url = https://github.com/tpope/vim-pathogen.git
+    ignore = untracked
+[submodule "bundle/FuzzyFinder"]
+	path = bundle/FuzzyFinder
+	url = https://github.com/vim-scripts/FuzzyFinder.git
+    ignore = untracked
+[submodule "bundle/L9"]
+	path = bundle/L9
+	url = https://github.com/vim-scripts/L9.git
+    ignore = untracked
