@@ -25,6 +25,7 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
+set relativenumber
 
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
