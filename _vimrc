@@ -51,3 +51,8 @@ noremap <silent><Leader>nc :FufMruCmd<CR>
 noremap <silent><Leader>ng :FufLine<CR>
 " open the latest search in :Fufline
 noremap <silent><leader>/ :execute ':FufLine ' . substitute(substitute(substitute(@/, "\\\\<", "", ""), "\\\\>", "", "")," "\\\\v", "", "")<CR>
+
+" display statusline on every window
+set laststatus=2
+" set powerline plugin to use fancy symbols
+let g:Powerline_symbols = 'fancy'
