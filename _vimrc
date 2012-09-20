@@ -62,3 +62,7 @@ let g:Powerline_symbols = 'fancy'
 " http://www.vim.org/scripts/script.php?script_id=3645
 let g:GPGPreferArmor=1
 let g:GPGDefaultRecipients=["paul.gregory@free.fr"]
+
+" Change fuzzyFinder menu colors
+highlight PmenuSel ctermbg=11 guibg=Yellow
+highlight Pmenu    ctermbg=7 guibg=Grey
