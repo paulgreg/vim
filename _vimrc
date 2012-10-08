@@ -1,4 +1,3 @@
-
 filetype off
 filetype plugin indent on
 
@@ -26,6 +25,8 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
+set incsearch
+set hlsearch
 
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
