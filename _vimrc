@@ -1,3 +1,4 @@
+
 filetype off
 filetype plugin indent on
 
@@ -64,6 +65,12 @@ let g:Powerline_symbols = 'fancy'
 let g:GPGPreferArmor=1
 let g:GPGDefaultRecipients=["paul.gregory@free.fr"]
 
+" When pasting, auto-adjust indent
+nnoremap p ]p
+nnoremap P ]P
+
 " Change fuzzyFinder menu colors
 highlight PmenuSel ctermbg=11 guibg=Yellow
 highlight Pmenu    ctermbg=7 guibg=Grey
+
+:noremap  <expr> <Home> (col('.') == matchend(getline('.'), '^\s*')+1 ? '0'  : '^')
