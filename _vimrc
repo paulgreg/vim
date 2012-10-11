@@ -73,4 +73,8 @@ nnoremap P ]P
 highlight PmenuSel ctermbg=11 guibg=Yellow
 highlight Pmenu    ctermbg=7 guibg=Grey
 
+" Intelligent home key
 :noremap  <expr> <Home> (col('.') == matchend(getline('.'), '^\s*')+1 ? '0'  : '^')
+
+" Pour recharger la config automatiquement :
+autocmd! BufWritePost .vimrc source ~/.vimrc
