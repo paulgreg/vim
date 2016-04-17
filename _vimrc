@@ -63,7 +63,7 @@ let g:Powerline_symbols = 'fancy'
 " http://www.tolaris.com/2010/09/27/editing-gpg-encrypted-files-in-vim/
 " http://www.vim.org/scripts/script.php?script_id=3645
 let g:GPGPreferArmor=1
-let g:GPGDefaultRecipients=["paul.gregory@free.fr"]
+let g:GPGDefaultRecipients=[""]
 
 " When pasting, auto-adjust indent
 nnoremap p ]p
